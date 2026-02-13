@@ -47,7 +47,7 @@ body {
 .heart, .bear {
     position: absolute;
     font-size: 2rem;
-    animation: float var(--float-duration) linear infinite;
+    animation: float var(--float-duration) linear infinite both;
 }
 
 @keyframes float {
@@ -315,4 +315,4 @@ h2 {
 .music-btn:hover {
     transform: scale(1.05);
     background: var(--secondary-color);
-} 
+}
